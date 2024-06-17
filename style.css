@@ -1,0 +1,55 @@
+nav{
+    background: linear-gradient(270deg,#F3E5F5, #E1F5FE);
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    background: linear-gradient(270deg,#F3E5F5, #E1F5FE);
+    border-radius: 10px;
+}
+
+#main-div{
+    background: linear-gradient(45deg,#F3E5F5, #E1F5FE);
+}
+
+#carouselId{
+    height: 75vh;
+}
+
+#search-button{
+    border: solid,#E3F2FD;
+    
+}
+
+#forests,#nights,#peoples,#abstracts,#animals{
+    justify-content: center;
+}
+
+
+.carousel-container {
+    height: 50vh;
+    overflow: hidden;
+}
+
+
+
+.car-img{
+    height: 70%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    border-radius: 5%;
+}
+
+.img-buy{
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    filter: invert(1);
+}

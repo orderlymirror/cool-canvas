@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Canvas</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="main-div" class="container-fluid">
+    <nav
+        class="navbar navbar-expand-md navbar-light sticky-top"
+    >
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Cool Canvas</a>
+            <button
+                class="navbar-toggler d-md-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mx-auto mt-2 mt-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/index.html" aria-current="page"
+                            >Home
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#forests">Forest</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nights">Nights</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#peoples">Peoples</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#abstracts">Abstract</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#animals">Animals</a>
+                    </li>
+                    
+                </ul>
+                <form class="d-flex my-2 my-md-0">
+                    <input
+                        class="form-control me-sm-2"
+                        type="text"
+                        placeholder="Search"
+                    />
+                    <button id="search-button"
+                        class="btn  my-2 my-sm-0"
+                        type="submit"
+                    >
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+<div class="container">
+    
+
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="car-img"
+                    src="./images/3.jpg"
+                    class="w-100 d-block"
+                    alt="First slide"
+                />
+            </div>
+            <div class="carousel-item">
+                <img class="car-img"
+                    src="./images/4.jpg"
+                    class="w-100 d-block"
+                    alt="Second slide"
+                />
+            </div>
+            <div class="carousel-item">
+                <img class="car-img"
+                    src="./images/6.jpg"
+                    class="w-100 d-block"
+                    alt="Third slide"
+                />
+            </div>
+            <div class="carousel-item">
+                <img class="car-img"
+                    src="./images/11.jpg"
+                    class="w-100 d-block"
+                    alt="Fourth slide"
+                />
+            </div>
+            <div class="carousel-item">
+                <img class="car-img"
+                    src="./images/12.jpg"
+                    class="w-100 d-block"
+                    alt="Fourth slide"
+                />
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="forests" class="row mt-2">
+        <h1>Forests</h1>
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/1.jpg" alt="">
+            <h3>Hidden palace in Jungle</h3>
+            <h4>₹299 <span><a href="./buy1.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/2.jpg" alt="">
+            <h3>Meloncholy everywhere</h3>
+            <h4>₹299 <span><a href="./buy2.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/3.jpg" alt="">
+            <h3>Something strange</h3>
+            <h4>₹299 <span><a href="./buy3.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+    </div>
+
+    <div id="nights" class="row">
+        <h1>Nights</h1>
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/4.jpg" alt="">
+            <h3>Night knight</h3>
+            <h4>₹299 <span><a href="./buy4.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/5.jpg" alt="">
+            <h3>Distorted thoughts</h3>
+            <h4>₹299 <span><a href="./buy5.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+    </div>
+
+    <div id="peoples" class="row">
+        <h1>Peoples</h1>
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/6.jpg" alt="">
+            <h3>You good?</h3>
+            <h4>₹299 <span><a href="./buy6.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/7.jpg" alt="">
+            <h3>Seafarers</h3>
+            <h4>₹299 <span><a href="./buy7.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/8.jpg" alt="">
+            <h3>Spirit</h3>
+            <h4>₹299 <span><a href="./buy8.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+    </div>
+
+    <div id="abstracts" class="row">
+        <h1>Abstracts</h1>
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/9.jpg" alt="">
+            <h3>Cheerful cloud</h3>
+            <h4>₹299 <span><a href="./buy9.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/10.jpg" alt="">
+            <h3>Lost in the sky</h3>
+            <h4>₹299 <span><a href="./buy10.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/11.jpg" alt="">
+            <h3>Sunset</h3>
+            <h4>₹299 <span><a href="./buy11.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+    </div>
+
+    <div id="animals" class="row">
+        <h1>Animals</h1>
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/12.jpg" alt="">
+            <h3>You're still in my brain</h3>
+            <h4>₹299 <span><a href="./buy12.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+
+        <div class="col-md-6">
+            <img class="img-thumbnail" src="./images/13.jpg" alt="">
+            <h3>Oh my dear</h3>
+            <h4>₹299 <span><a href="./buy13.html" class="btn btn-warning btn-sm">Buy</a></span></h4>
+        </div>
+    </div>
+
+    <footer>&copy 2024 Cool Canvas</footer>
+    
+</div>
+
+
+
+</div> 
+</body>
+</html>
